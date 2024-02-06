@@ -7,8 +7,6 @@
 
 This project is an API built using **Java, Java Spring, AWS Simple Email Service.**
 
-The Microservice was developed for my [Youtube Channel](https://youtu.be/eFgeO9M9lLw?si=uyhUXrR-NLEpBW6p), to demonstrate how to solve the [Uber Backend Challenge](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md).
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -23,7 +21,7 @@ The Microservice was developed for my [Youtube Channel](https://youtu.be/eFgeO9M
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Fernanda-Kipper/desafio-backend-uber.git
+git clone https://github.com/fjedi9/email.git
 ```
 
 2. Install dependencies with Maven
@@ -51,7 +49,7 @@ POST /api/email/send - Send a e-mail from your sender to the destination
 **BODY**
 ```json
 {
-  "to": "liveskipperdev@gmail.com",
+  "to": "vieira.felipe@gmail.com",
   "subject": "teste",
   "body": "teste"
 }
